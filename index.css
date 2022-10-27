@@ -1,0 +1,35 @@
+@font-face {
+  font-family: youtubesanslight;
+  src: url(/fonts/youtube-sans-light.ttf);
+}
+
+@font-face {
+  font-family: youtubesansmedium;
+  src: url(/fonts/youtube-sans-medium.ttf);
+}
+
+@font-face {
+  font-family: youtubesansbold;
+  src: url(/fonts/youtube-sans-bold.ttf);
+}
+
+* {
+  font-family: youtubesanslight;
+}
+
+h1,
+h2,
+h3 {
+  font-family: youtubesansbold;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .ellipsis {
+    width: 500px;
+    height: 600px;
+  }
+}
