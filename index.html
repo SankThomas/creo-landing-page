@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <title>Creo Landing Page</title>
+  </head>
+  <body class="lg:grid lg:grid-cols-3">
+    <!-- Section one -->
+    <section class="col-span-2">
+      <header class="bg-black flex items-center justify-between p-8">
+        <div class="flex items-center lg:gap-8">
+          <img src="./images/logo.svg" alt="" class="w-14 lg:w-20" />
+
+          <nav class="hidden lg:block">
+            <ul class="flex text-white gap-4 lg:text-lg">
+              <li><button>Services</button></li>
+              <li><button>Clients</button></li>
+              <li><button>About us</button></li>
+              <li><button>Portfolio</button></li>
+              <li><button>Mobile app</button></li>
+            </ul>
+          </nav>
+        </div>
+
+        <ul class="flex items-end justify-end gap-4">
+          <li>
+            <a href=""><img src="./images/icon-instagram.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./images/icon-tumblr.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./images/icon-pinterest.svg" alt="" /></a>
+          </li>
+        </ul>
+      </header>
+
+      <div class="relative bg-black px-8 py-32">
+        <h1
+          class="text-white text-5xl text-yellow-400 mb-32 md:text-6xl xl:text-8xl"
+        >
+          We create
+          <span class="block text-white font-bold lg:ml-32"
+            >Interior experiences</span
+          >
+        </h1>
+
+        <div>
+          <img
+            src="./images/ellipse.svg"
+            alt=""
+            class="ellipsis absolute -left-32 -bottom-28"
+            style="width: 60%; height: 60%"
+          />
+
+          <button>
+            <ul class="flex items-center text-white">
+              <li>
+                <img src="./images/yellow-circle.svg" alt="" class="w-16" />
+              </li>
+              <li class="-ml-5">
+                <img src="./images/white-arrow.svg" alt="" class="w-20" />
+              </li>
+              <li class="uppercase tracking-widest text-lg font-bold ml-6">
+                Let's talk
+              </li>
+            </ul>
+          </button>
+        </div>
+      </div>
+
+      <div class="relative md:grid md:grid-cols-2 lg:flex">
+        <article class="lg:flex-1">
+          <img
+            src="./images/img-1.jpg"
+            alt=""
+            class="w-full lg:h-full lg:object-cover"
+          />
+        </article>
+
+        <article class="p-8 lg:flex-1 lg:pt-32">
+          <h2 class="text-3xl tracking-widest uppercase mb-8">Philosophy</h2>
+          <p class="leading-loose mb-16 md:text-lg">
+            We create a space where people can control every parameter they
+            need. The relationship between form and function is at the heart of
+            our philosophy
+          </p>
+
+          <button class="flex gap-8 text-lg font-bold items-center">
+            About us <img src="./images/black-arrow.svg" alt="" />
+          </button>
+        </article>
+
+        <article class="lg:flex-1">
+          <img
+            src="./images/img-2.jpg"
+            alt=""
+            class="w-full lg:h-full lg:object-cover"
+          />
+        </article>
+      </div>
+    </section>
+
+    <!-- Section two -->
+    <section class="flex flex-col-reverse lg:flex-col">
+      <img src="./images/chair.jpg" alt="" />
+
+      <div class="md:grid grid-cols-2">
+        <article class="p-8">
+          <h2 class="text-8xl mb-4">16</h2>
+          <p class="mb-10 lg:text-lg lg:mb-12 lg:mb-24">
+            parameters to regulate in our mobile app
+          </p>
+          <button class="flex flex-wrap items-center gap-8 text-lg font-bold">
+            More about our app <img src="./images/black-arrow.svg" alt="" />
+          </button>
+        </article>
+
+        <article class="p-8 bg-yellow-400">
+          <h2 class="text-8xl mb-4">263</h2>
+          <p class="mb-10 lg:text-lg lg:mb-12 lg:mb-24">happy families</p>
+          <button class="flex flex-wrap items-center gap-8 text-lg font-bold">
+            Our portfolio <img src="./images/black-arrow.svg" alt="" />
+          </button>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>
